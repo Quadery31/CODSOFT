@@ -14,7 +14,7 @@ public static void main(String args[])
         TotalMarks += marks[i];
     }
     double Avg= (TotalMarks)/Subjects.length;
-    System.out.println("YOUR GRADES ARE CALCULATED AS FOLLOWS:"+"\n"+ "90 and above - OUTSTANDING" + "\n" + "80-89 - A!" + "\n" + "70-79 - B!" + "\n" + "60-69 - C!" + "\n"+ "41-59 - C+!" + "\n" + "40 and above - D!" );
+    System.out.println("YOUR GRADES ARE CALCULATED AS FOLLOWS:"+"\n"+ "90 and above - A+" + "\n" + "80-89 - A!" + "\n" + "70-79 - B!" + "\n" + "60-69 - C!" + "\n"+ "41-59 - C+!" + "\n" + "40 and above - D!" );
     System.out.println("Total Marks obtained is " + TotalMarks);
     System.out.println("Average percentage Scored by the student is "+ Avg);
     System.out.println("Grade Scored by the student is "+ grade(Avg));
@@ -25,7 +25,7 @@ public static String grade ( double Avg )
 {
     if(Avg>=90)
     {
-        return "O";
+        return "A+;
     }
     else 
     if(Avg>=80 && Avg<90)
